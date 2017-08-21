@@ -13,6 +13,6 @@ namespace SiteHualef.Models
 
         public string local { get; set; }
 
-        public int qtdPessoa { get; set; }
+        public int qtdPessoas { get; set; }
     }
 }
