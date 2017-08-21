@@ -10,7 +10,7 @@ namespace SiteHualef.Models
     {
         public int idFoto { get; set; }
 
-        public string nome { get; set; }
+        public string nomes { get; set; }
 
         public int idShow { get; set; }
 
