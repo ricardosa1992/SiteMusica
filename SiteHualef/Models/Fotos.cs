@@ -14,7 +14,7 @@ namespace SiteHualef.Models
 
         public int idShow { get; set; }
 
-        public int tam { get; set; }
+        public int taman { get; set; }
 
         //Definindo as chaves estrangeiras (ligações) da tabela
         [ForeignKey("idShow")]
