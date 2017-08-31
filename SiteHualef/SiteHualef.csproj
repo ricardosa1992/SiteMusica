@@ -278,9 +278,6 @@
     <Content Include="js\vendor\jquery_vendor.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <Content Include="ApplicationInsights.config">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
     <Content Include="less\agency.less" />
     <Content Include="less\mixins.less" />
     <Content Include="less\variables.less" />
