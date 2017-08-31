@@ -9,9 +9,11 @@ build:
   publish_nuget_symbols: true
   include_nuget_references: true
   verbosity: minimal
+artifacts: 
+  - path: deploy\*.zip
+    name: SiteMusica.zip
 deploy:
 - provider: Environment
   name: SiteMusica
-  artifact: SiteMusica.zip
   on:
       branch: master
