@@ -11,7 +11,9 @@ namespace SiteHualef.Models
 
         public DateTime data { get; set; }
 
-        public string local { get; set; }
+        public string rua { get; set; }
+
+        public string cidade { get; set; }
 
         public int qtdPessoas { get; set; }
     }

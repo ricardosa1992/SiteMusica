@@ -10,11 +10,9 @@ namespace SiteHualef.Models
     {
         public int idFoto { get; set; }
 
-        public string nomes { get; set; }
+        public string nome { get; set; }
 
         public int idShow { get; set; }
-
-        public int tam { get; set; }
 
         //Definindo as chaves estrangeiras (ligações) da tabela
         [ForeignKey("idShow")]
